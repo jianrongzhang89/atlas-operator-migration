@@ -1,0 +1,22 @@
+{
+    "apiVersion": "atlas.mongodb.com/v1",
+    "kind": "AtlasCluster",
+    "metadata": {
+        "labels": {{ LABELS }},
+        "name": "{{ NAME }}",
+        "namespace": "{{ NAMESPACE }}",
+        "ownerReferences": {{ OWNERREFS }}
+    },
+    "spec": {
+        "clusterSpec": {
+            "name": "{{ INSTANCENAME }}",
+            "providerSettings": {
+                "backingProviderName": "AWS",
+                "instanceSizeName": "{{ INSTANCESIZE }}",
+                "providerName": "{{ PROVIDERNAME }}",
+                "regionName": "{{ REGIONNAME }}"
+            }
+        },
+        "projectRef": {{ PROJECTREF }}  
+    }
+}

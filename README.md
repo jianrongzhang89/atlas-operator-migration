@@ -36,7 +36,7 @@ Creating patch file for test10 in namespace test
 Upgrade files generated.
 -rw-r--r--  1 zhangj  staff  927 May 16 16:01 ./upgrade/mytestcluster.jianrong.json
 -rw-r--r--  1 zhangj  staff  891 May 16 16:01 ./upgrade/test10.test.json
-Now we will delete the old AtlasCluster CRs. If anything goes wrong, you can use the files under ./backup to recover
+OKNow we will delete the old AtlasCluster CRs. If anything goes wrong, you can use the files under ./backup to recover
 Would you like to continue (y/n)?y
 Deleting AtlasCluster CRs in the cluster
 atlascluster.atlas.mongodb.com "mytestcluster" deleted
